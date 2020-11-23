@@ -1,0 +1,16 @@
+{
+  "name": "css-architecture-course",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "sass scss:css",
+    "watch": "sass scss:css --watch"
+  },
+  "devDependencies": {
+    "sass": "^1.29.0",
+    "stylelint": "^13.8.0",
+    "stylelint-config-idiomatic-order": "^8.1.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-scss": "^3.18.0"
+  }
+}
