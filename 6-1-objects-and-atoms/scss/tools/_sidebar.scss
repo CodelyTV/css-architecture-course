@@ -1,0 +1,21 @@
+@mixin sidebar(
+  $sidebar-position: "last-child",
+  $side-width: auto,
+  $min-width: 50%,
+  $gap: 1rem
+) {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $gap;
+
+  > * {
+    flex-basis: $side-width;
+    flex-grow: 1;
+  }
+
+  > :#{$sidebar-position} {
+    min-width: $min-width;
+    flex-basis: 0;
+    flex-grow: 999;
+  }
+}
