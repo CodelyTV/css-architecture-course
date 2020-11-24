@@ -1,0 +1,39 @@
+@use "../settings/variables";
+
+.m-cta-box {
+  position: relative;
+  padding-bottom: 4rem;
+
+  &__title {
+    padding-bottom: 1em;
+    border-bottom: 2px solid rgba(variables.$border-inverted-color, 0.3);
+    margin: 0;
+    margin: 0.5em 0 1em;
+
+    strong {
+      display: block;
+    }
+  }
+
+  &__note {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    font-size: variables.$fs-pill;
+    text-transform: uppercase;
+  }
+
+  &__cta {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    text-align: center;
+  }
+
+  &__content > * {
+    margin-bottom: 0.5em;
+  }
+}

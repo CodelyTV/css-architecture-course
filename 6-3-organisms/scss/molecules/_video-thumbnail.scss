@@ -1,0 +1,49 @@
+@use "../settings/variables";
+
+.m-video-thumbnail {
+  position: relative;
+
+  &__img {
+    display: block;
+    margin-bottom: 1.6rem;
+    border-radius: 0.5rem;
+  }
+
+  &__play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    width: 5em;
+    height: 5em;
+    border: none;
+    background: variables.$background-lighter-color;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+
+    &::before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 0;
+      height: 0;
+      border-width: 6px 0 6px 12px;
+      border-style: solid;
+      border-color: transparent transparent transparent variables.$background-dark-color;
+      margin-top: -5px;
+      margin-top: -3px;
+      margin-left: -4px;
+      content: "";
+    }
+
+    &--large {
+      width: 7.4em;
+      height: 7.4em;
+    }
+
+    &:hover {
+      box-shadow: 0 23px 40px rgba(0, 0, 0, 0.2);
+    }
+  }
+}

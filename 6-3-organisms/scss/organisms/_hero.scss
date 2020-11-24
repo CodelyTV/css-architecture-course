@@ -1,0 +1,27 @@
+@use "../settings/variables";
+@use "../tools/mixins";
+
+.g-hero {
+  @include mixins.sidebar($sidebar-position: "first-child");
+
+  padding-top: variables.$spacing-l;
+  padding-bottom: variables.$spacing-l;
+
+  &__info {
+    padding-right: 2rem;
+    font-size: variables.$fs-lead;
+  }
+
+  &__media {
+    max-width: 33rem;
+    margin: 0 auto;
+  }
+
+  p {
+    opacity: 0.9;
+  }
+
+  .btn {
+    margin-top: 1rem;
+  }
+}
