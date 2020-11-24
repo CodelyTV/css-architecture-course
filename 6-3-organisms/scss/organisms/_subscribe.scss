@@ -1,0 +1,17 @@
+@use "../settings/variables";
+@use "../tools/mixins";
+
+.g-subscribe {
+  @include mixins.sidebar(
+    $sidebar-position: "first-child",
+    $min-width: 60%,
+    $side-width: 25rem
+  );
+
+  padding-top: variables.$spacing-l;
+  padding-bottom: 5rem;
+
+  > :first-child {
+    padding-right: 10vw;
+  }
+}
