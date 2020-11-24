@@ -1,0 +1,50 @@
+@use "../settings/variables";
+@use "../tools/mixins";
+
+.g-header {
+  position: sticky;
+  z-index: variables.$z-menu;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: variables.$background-dark-color;
+  box-shadow: 0 6px 24px -12px variables.$background-darker-color;
+  color: variables.$text-inverted-color;
+
+  &__brand {
+    display: block;
+    max-height: 2.3rem;
+  }
+
+  &__nav {
+    @include mixins.justify;
+
+    padding-top: variables.$spacing-s;
+    padding-bottom: variables.$spacing-s;
+  }
+
+  &__link {
+    color: variables.$text-inverted-color;
+    font-size: variables.$fs-menu;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+
+    &--separator {
+      margin-left: 1.75rem;
+    }
+
+    &--cta {
+      padding: 0.4em 1em;
+      border: solid 2px variables.$primary-color;
+      border-radius: 2px;
+      font-size: 0.95em;
+      text-transform: uppercase;
+    }
+
+    &:hover {
+      color: variables.$text-inverted-color;
+      opacity: 0.8;
+    }
+  }
+}

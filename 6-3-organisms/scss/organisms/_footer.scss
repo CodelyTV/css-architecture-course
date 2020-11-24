@@ -1,0 +1,37 @@
+@use "../settings/variables";
+@use "../tools/mixins";
+
+.g-footer {
+  background: variables.$background-dark-color;
+
+  &__links {
+    @include mixins.justify;
+
+    font-size: variables.$fs-footer;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    img {
+      max-width: 1rem;
+      margin-left: 0.5rem;
+    }
+  }
+
+  &__legal {
+    padding-bottom: variables.$spacing-l;
+    border-top: 1px solid variables.$border-color;
+  }
+
+  a {
+    color: variables.$text-inverted-color;
+    opacity: 0.7;
+    text-decoration: none;
+    transition: all 0.2s;
+
+    &:hover,
+    &:focus {
+      color: variables.$text-inverted-color;
+      opacity: 1;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.g-testimonials {
+  padding-top: 6.5rem;
+  padding-bottom: 6.5rem;
+
+  &__grid {
+    display: grid;
+    gap: 1.87rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  }
+}
