@@ -1,0 +1,20 @@
+@use "../settings/variables";
+
+.g-courses {
+  border-bottom: 1px solid variables.$border-inverted-color;
+  background: variables.$background-light-color;
+
+  &__filters {
+    margin-bottom: 3rem;
+  }
+
+  &__grid {
+    column-width: 18rem;
+    gap: 1.87rem;
+  }
+
+  &__item {
+    margin-bottom: 1.87rem;
+    break-inside: avoid;
+  }
+}
