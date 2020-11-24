@@ -1,0 +1,51 @@
+@use "../settings/variables";
+
+.m-dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__label {
+    display: inline-block;
+    margin-right: 1rem;
+    vertical-align: middle;
+  }
+
+  &__field {
+    position: relative;
+    display: inline-block;
+    min-width: 143px;
+    height: 3.71428571em;
+    padding: 1rem;
+    border: 1px solid variables.$border-inverted-color;
+    background: variables.$background-lighter-color;
+    border-radius: 6px;
+  }
+
+  &__list {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    overflow: hidden;
+    max-height: 1.85714286em;
+  }
+
+  &__item {
+    display: none;
+
+    &--active {
+      display: block;
+      color: variables.$primary-dark-color;
+
+      &::after {
+        position: relative;
+        bottom: 2px;
+        display: inline-block;
+        margin-left: 6px;
+        content: "\25bc";
+        font-size: 8px;
+        transform: scaleX(1.4) scaleY(0.9);
+      }
+    }
+  }
+}

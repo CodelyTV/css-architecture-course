@@ -1,0 +1,12 @@
+.o-ui-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  &--horizontal {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+  }
+}

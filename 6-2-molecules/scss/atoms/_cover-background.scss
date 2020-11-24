@@ -1,0 +1,18 @@
+@use "../settings/variables";
+
+.a-cover-background {
+  background-attachment: fixed;
+  background-color: variables.$background-dark-color;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: variables.$text-inverted-color;
+
+  &--plant {
+    background-image: url("../../img/bg/plant.jpg");
+  }
+
+  &--kayak {
+    background-image: url("../../img/bg/kayak.jpg");
+  }
+}

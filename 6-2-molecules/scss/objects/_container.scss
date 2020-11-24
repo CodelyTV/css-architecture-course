@@ -1,0 +1,7 @@
+@use "../settings/variables";
+
+.o-container {
+  max-width: variables.$max-width;
+  padding: variables.$spacing variables.$spacing-s;
+  margin: 0 auto;
+}

@@ -1,0 +1,11 @@
+@use "../settings/variables";
+
+a {
+  color: variables.$primary-color;
+  text-decoration: underline;
+
+  &:hover,
+  &:focus {
+    color: variables.$primary-dark-color;
+  }
+}
