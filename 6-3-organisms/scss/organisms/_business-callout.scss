@@ -1,0 +1,10 @@
+@use "../settings/variables";
+
+.g-business-callout {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  color: variables.$text-muted-color;
+  gap: 1rem;
+}
