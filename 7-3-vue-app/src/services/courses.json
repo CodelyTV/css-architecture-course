@@ -1,0 +1,331 @@
+[
+  {
+    "slug": "makefiles",
+    "title": "🐂 Makefiles",
+    "img": "makefiles.jpg",
+    "description": "El centralizar tareas de nuestras aplicaciones es algo muy importante, y con los Makefiles se simplifica mucho.",
+    "category": ["tooling"],
+    "authors": "Javi y Rafa"
+  },
+
+  {
+    "slug": "monitoring-con-prometheus",
+    "title": "🔥 Monitoring con Prometheus",
+    "img": "prometheus.jpg",
+    "description": "La observabilidad es una de las cosas más importantes de la programación y el Monitoring uno de sus principales pilares.",
+    "category": ["tooling", "devops"],
+    "authors": "Javi y Rafa"
+  },
+  {
+    "slug": "bash-scripting-productividad",
+    "title": "💻 Bash para el día a día: Scripting & Productividad",
+    "img": "bash.jpg",
+    "description": "Aprende a usar la navaja suiza de los programadores 😬",
+    "category": ["tooling"],
+    "authors": "Rafa"
+  },
+  {
+    "slug": "notion",
+    "title": "🌈 Notion: Productividad en equipo",
+    "img": "notion.jpg",
+    "description": "Centraliza toda la documentación de tu equipo de trabajo y la gestión de tareas en 1 única herramienta: Notion.",
+    "category": ["tooling"],
+    "authors": "Javi y Rafa"
+  },
+  {
+    "slug": "dotfiles",
+    "title": "🚀 Todo sobre los dotfiles",
+    "img": "dotfiles.jpg",
+    "description": "Aprende a automatizar, centralizar y compartir todas tus configuraciones gracias a los dotfiles.",
+    "category": ["tooling"],
+    "authors": "Javi y Rafa"
+  },
+  {
+    "slug": "github-actions",
+    "title": "🤖 Automatiza tu flujo de trabajo con GitHub Actions",
+    "img": "github-actions-automatizacion.jpg",
+    "description": "Crearemos nuestras propias actions (¡hasta publicaremos alguna en el Marketplace!) que nos puedan ser muy útiles en nuestro día a día.",
+    "category": ["tooling", "devops"],
+    "authors": "Javi y Rafa"
+  },
+  {
+    "slug": "iterm",
+    "title": "💻 💨 Productividad con iTerm: Terminal macOS",
+    "img": "iterm-productividad.jpg",
+    "description": "Veremos cómo tener una terminal rapidísima y muy productiva gracias a unos simple (y escondidos) tips.",
+    "category": ["tooling"],
+    "authors": "Javi y Rafa"
+  },
+  {
+    "slug": "terminal-zsh",
+    "title": "💻 Terminal 100% productiva con Zsh",
+    "img": "terminal-zsh.jpg",
+    "description": "Consigue ser un Productivity Raptor™️ con tu terminal gracias a Zsh, Oh My Zsh, Zim y funciones avanzadas.",
+    "category": ["tooling"],
+    "authors": "Javi y Rafa"
+  },
+  {
+    "slug": "integracion-continua-github-actions",
+    "title": "🤖 Integración Continua con GitHub Actions",
+    "img": "github-actions-integracion-continua.jpg",
+    "description": "¡Consigue una Integración Continua de la que te puedas fiar y que sea rapidísima! Gracias a GitHub Actions veremos como lograrlo.",
+    "category": ["tooling", "devops"],
+    "authors": "Javi y Rafa"
+  },
+  {
+    "slug": "exprimiendo-intellij",
+    "title": "⚡ Exprimiendo IntelliJ",
+    "img": "intellij.jpg",
+    "description": "¡Mejora tu productividad exprimiendo IntelliJ! Consigue un aspecto minimalista, crea ficheros con plantillas personalizadas, atajos secretos, y mucho más.",
+    "category": ["tooling"],
+    "authors": "Javi y Rafa"
+  },
+  {
+    "slug": "ddd-java",
+    "title": "☕ DDD en Java",
+    "img": "ddd-java.jpg",
+    "description": "Crea paso a paso tu aplicación Java siguiendo Domain-Driven Design. Estructura de carpetas, integración con BD, sistema de colas, CQRS y más.",
+    "category": ["software-architecture", "backend"],
+    "authors": "Javi y Rafa"
+  },
+  {
+    "slug": "ddd-php",
+    "title": "🐘 DDD en PHP",
+    "img": "ddd-en-php.jpg",
+    "description": "Crea paso a paso tu aplicación PHP siguiendo Domain-Driven Design. Estructura de carpetas, integración con BD, sistema de colas, CQRS y más.",
+    "category": ["software-architecture", "backend"],
+    "authors": "Javi y Rafa"
+  },
+  {
+    "slug": "git-introduccion",
+    "title": "🔀 Git: Introducción y trabajo en equipo",
+    "img": "git-introduccion-trabajo-en-equipo.jpg",
+    "description": "Aprende a trabajar en equipo con Git y sacarle todo el provecho con aspectos avanzados como debugging, estrategias de merge, y mucho más.",
+    "category": ["tooling"],
+    "authors": "Javi y Rafa"
+  },
+  {
+    "slug": "introduccion-go",
+    "title": "⚡ Introducción a Go: Tu primera app",
+    "img": "go-primera-app.jpg",
+    "description": "Desarrolla tu primer comando de consola con Go mientras aprendes qué hace diferente al lenguaje de moda.",
+    "category": ["backend"],
+    "authors": "Javi y Rafa"
+  },
+  {
+    "slug": "testing-introduccion-buenas-practicas",
+    "title": "✅ Testing: Introducción y buenas prácticas",
+    "img": "testing-introduccion-buenas-practicas.jpg",
+    "description": "Aprende qué aporta el testing, cómo testear y buenas prácticas para evitar que mantener tus tests sea un infierno con ejemplos de El Mundo Real™️",
+    "category": ["testing"],
+    "authors": "Javi y Rafa"
+  },
+  {
+    "slug": "solid",
+    "title": "🧱 Principios SOLID aplicados",
+    "img": "solid.jpg",
+    "description": "Si ya sabes desarrollar software, pero quieres ir un paso más allá y mejorar la calidad de tu código, este es tu curso",
+    "category": ["software-architecture"],
+    "authors": "Javi y Rafa"
+  },
+  {
+    "slug": "domain-driven-design",
+    "title": "🕋 Domain-Driven Design",
+    "img": "domain-driven-design.jpg",
+    "description": "Aprende a modelar tus aplicaciones centrándote en tu dominio, definir Bounded Contexts, agregados, value objects, y mucho más. Todo de forma práctica y con ejemplos de código ⚡",
+    "category": ["software-architecture"],
+    "authors": "Javi y Rafa"
+  },
+  {
+    "slug": "arquitectura-hexagonal",
+    "title": "🎯 Arquitectura Hexagonal",
+    "img": "curso-arquitectura-hexagonal.jpg",
+    "description": "Domain-Driven Design se apoya en la Arquitectura Hexagonal como uno de sus pilares a nivel técnico. Aprende a implementarla con CodelyTV!",
+    "category": ["software-architecture"],
+    "authors": "Javi y Rafa"
+  },
+  {
+    "slug": "docker",
+    "title": "🐳 Docker: De 0 a deploy",
+    "img": "docker-desde-0.jpg",
+    "description": "Aprende qué es Docker y cómo sacar el mayor partido a los contenedores. Empezando desde el principio, veremos cómo usar Docker para levantar tu aplicación en local como si fuese producción, arrancando una base de datos con Docker Compose.",
+    "category": ["tooling", "devops"],
+    "authors": "José Armesto"
+  },
+  {
+    "slug": "cqrs",
+    "title": "🚌 CQRS: Command Query Responsibility Segregation",
+    "img": "curso-cqrs.jpg",
+    "description": "Aumenta el rendimiento y el desacoplamiento de tu backend mediante CQRS. Veremos conceptos e implementaciones de buses síncronos y asíncronos.",
+    "category": ["software-architecture"],
+    "authors": "Javi y Rafa"
+  },
+  {
+    "slug": "comunicacion-microservicios-event-driven-architecture",
+    "title": "💬 Comunicación entre microservicios: Event-Driven Architecture",
+    "img": "comunicacion-microservicios.jpg",
+    "description": "Publica y consume eventos de dominio, consistencia eventual, RabbitMQ y AWS SNS-SQS, migración de monolito a servicios, y mucho más.",
+    "category": ["software-architecture"],
+    "authors": "Javi y Rafa"
+  },
+  {
+    "slug": "kubernetes-para-desarrolladores",
+    "title": "⛵ Kubernetes para desarrolladores",
+    "img": "kubernetes-para-desarrolladores.jpg",
+    "description": "Aprende a orquestrar contenedores de Docker y desplegarlos en Azure, GCE, o AWS siguiendo buenas prácticas",
+    "category": ["tooling", "devops"],
+    "authors": "Javi y Rafa"
+  },
+  {
+    "slug": "introduccion-scala",
+    "title": "🌀 Introducción a Scala",
+    "img": "curso-introduccion-scala.jpg",
+    "description": "Scala es un lenguaje conciso, poco verboso, y que permite la programación funcional sin olvidar la POO. Aprenderemos cómo configurar el entorno, las bases del lenguaje, asincronía y otros tips para empezar.",
+    "category": ["backend"],
+    "authors": "Javi y Rafa"
+  },
+  {
+    "slug": "elk-centraliza-logs-con-elastic-stack",
+    "title": "📊 ELK: Centraliza logs con Elastic Stack",
+    "img": "elastic-stack.jpg",
+    "description": "Aprende a montar un stack para poder explotar toda la información de tus logs gracias a Elasticsearch, Logstash o Beats, y Kibana",
+    "category": ["devops"],
+    "authors": "Javi y Rafa"
+  },
+  {
+    "slug": "aws-ec2",
+    "title": "☁️ AWS EC2: Tu primer deploy",
+    "img": "curso-aws-ec2.jpg",
+    "description": "Aprende las bases de Amazon Web Services para levantar tu primera aplicación en la nube con José Armesto. Crea tu propia VPC, elige la instancia adecuada de EC2, configura SSH, elige tu AMI base y crea la tuya propia, define Security Groups, deploya, y configura Route53 como DNS!",
+    "category": ["devops"],
+    "authors": "Javi y Rafa"
+  },
+  {
+    "slug": "bdd-gherkin",
+    "title": "🥒 Buenas prácticas de BDD con Gherkin (Cucumber, Behat…)",
+    "img": "buenas-practicas-bdd-cucumber-behat.jpg",
+    "description": "Aprenderás desde los conceptos básicos para testear tu aplicación con Cucumber o Behat, hasta consejos de buenas prácticas para hacer que tu suite de tests sea más fácilmente mantenible. ¡Teoría a través de ejemplos de código en Java, JavaScript, y Ruby!",
+    "category": ["testing"],
+    "authors": "Javi y Rafa"
+  },
+  {
+    "slug": "reactjs-de-0-a-deploy",
+    "title": "⚛️ ReactJS: De 0 a deploy",
+    "img": "reactjs-de-0-a-deploy.jpg",
+    "description": "Crea tu primera aplicación de React llevándola hasta producción y siguiendo buenas prácticas",
+    "category": ["frontend"],
+    "authors": "Javi y Rafa"
+  },
+  {
+    "slug": "vuejs-y-jest-aplicando-tdd",
+    "title": "✌️ Crea una app con VueJS y Jest aplicando TDD",
+    "img": "curso-app-vuejs-jest.jpg",
+    "description": "Alberto Gualis y Javi Rubio nos explicarán cómo testean aplicaciones VueJS con Jest en los Coding Stones. Incluye sesión práctica de TDD en Frontend. A lo loco!",
+    "category": ["frontend", "testing"],
+    "authors": "Javi y Rafa"
+  },
+  {
+    "slug": "cqrs-y-event-sourcing-con-kotlin-y-axon-framework",
+    "title": "🤹 CQRS y Event Sourcing con Kotlin y Axon Framework",
+    "img": "cqrs-event-sourcing-kotlin-axon-framework.jpg",
+    "description": "En el curso aprenderemos qué es Event Sourcing y cómo se complementa de manera natural con la arquitectura CQRS. La parte práctica del curso consistirá en un desarrollo del típico carrito de la compra para un ecommerce usando Kotlin y el framework Axon.",
+    "category": ["software-architecture", "backend"],
+    "authors": "Javi y Rafa"
+  },
+  {
+    "slug": "agile-como-mejorar-tus-retrospectivas",
+    "title": "🤝 Agile: Cómo mejorar tus retrospectivas",
+    "img": "curso-agile-retrospectivas.jpg",
+    "description": "A pesar de parecer simple, llevar a cabo buenas retrospectivas no siempre es fácil. En este curso José Huerta de Smoking Brains nos explicará cómo mejorar.",
+    "category": ["tooling"],
+    "authors": "Javi y Rafa"
+  },
+  {
+    "slug": "migrando-a-vuejs-progresivamente",
+    "title": "♻️️ Migrando a VueJS progresivamente",
+    "img": "migracion-vuejs.jpg",
+    "description": "Aprende cómo migrar un frontend ya existente a Vue.js partiendo de HTML, CSS y JS generado por backend",
+    "category": ["frontend"],
+    "authors": "Javi y Rafa"
+  },
+  {
+    "slug": "tu-primera-api-http-con-scala",
+    "title": "🗣️ Tu primera API HTTP con Scala",
+    "img": "curso-api-http-scala.jpg",
+    "description": "Habiendo hecho el primer curso de introducción a Scala ya nos podemos meter en materia y desarrollar nuestra primera API HTTP con Scala, Akka, base de datos, y mucho más.",
+    "category": ["backend"],
+    "authors": "Javi y Rafa"
+  },
+  {
+    "slug": "aws-escalando-apps-load-balancers-y-auto-scaling-groups",
+    "title": "📈 AWS: Escalando apps - Load Balancers y Auto Scaling Groups",
+    "img": "curso-aws-escalando-apps.jpg",
+    "description": "José Armesto seguirá la serie de cursos sobre AWS hablando de cómo escalar. Introduciremos los Load Balancers y Auto Scaling Groups de AWS.",
+    "category": ["devops"],
+    "authors": "José Armesto"
+  },
+  {
+    "slug": "ui-testing-en-android-con-espresso",
+    "title": "🎨 UI Testing en Android con Espresso",
+    "img": "curso-ui-testing-android.jpg",
+    "description": "En el mundo mobile la parte más importante y grande que debemos cubrir con tests es la interfaz de usuario. En este curso aprenderemos las claves para escribir buenos tests de UI con Jorge Barroso de Karumi.",
+    "category": ["mobile", "testing"],
+    "authors": "Javi y Rafa"
+  },
+  {
+    "slug": "programacion-funcional-refactorizando-codigo-orientado-a-objetos-con-typeclasses",
+    "title": "ƛ Programación funcional: Refactorizando código orientado a objetos con TypeClasses",
+    "img": "programacion-funcional-refactor-typeclasses.jpg",
+    "description": "En este curso nos proponemos refactorizar la aplicación de ejemplo utilizada en el curso API HTTP con Scala y Akka con el objetivo de dotar a nuestra aplicación de mayor tolerancia al cambio. Para ello utilizaremos las type classes, una técnica que nos ofrece la programación funcional con la que podremos implementar nuestras APIs de una forma mucho más declarativa y limpiar de impurezas asíncronas nuestra lógica de negocio.",
+    "category": ["software-architecture", "backend"],
+    "authors": "Javi y Rafa"
+  },
+  {
+    "slug": "testing-unidirectional-dataflow-con-vuex-y-jest",
+    "title": "🍄 Testing unidirectional dataflow con Vuex y Jest",
+    "img": "testing-vuex.jpg",
+    "description": "Explicaremos la implementación de arquitectura de flujo unidireccional de Vuex y veremos cómo ayuda al desarrollo de aplicaciones con una jerarquía de componentes más compleja. Testearemos desde las acciones hasta el router, e incluso haremos una sesión de TDD en este contexto con un backender ;)",
+    "category": ["frontend", "testing"],
+    "authors": "Javi y Rafa"
+  },
+  {
+    "slug": "mean--angularjs-webpack",
+    "title": "🛡️ Crea una app MEAN profesional con AngularJS y Webpack",
+    "img": "curso-app-mean-webpack.jpg",
+    "description": "JuanMa Garrido nos explica cómo crear aplicaciones profesionales desde 0 basándonos en MongoDB, Express, AngularJS, y Node.js siguiendo buenas prácticas y usando Webpack.",
+    "category": ["frontend"],
+    "authors": "Javi y Rafa"
+  },
+  {
+    "slug": "ui-testing-en-ios-con-kif",
+    "title": "📱 UI Testing en iOS con KIF",
+    "img": "curso-ui-testing-ios.jpg",
+    "description": "Aprende una de las técnicas de testing más potentes que existen para desarrollo móvil, aprende a hacer tests funcionales de UI para aplicaciones iOS con Sergio Gutierrez de Karumi.",
+    "category": ["mobile", "testing"],
+    "authors": "Javi y Rafa"
+  },
+  {
+    "slug": "exprimiendo-las-vistas-de-android",
+    "title": "🖌️ Exprimiendo las vistas de Android",
+    "img": "vistas-android.jpg",
+    "description": "Aprenderás a diseñar en Android cualquier diseño que te propongas. Empezando desde la base, iremos analizando todos los componentes hasta llegar a conceptos avanzados para que no se te resista ningún reto.",
+    "category": ["mobile"],
+    "authors": "Javi y Rafa"
+  },
+  {
+    "slug": "screenshot-testing-en-android",
+    "title": "📸 Screenshot testing en Android",
+    "img": "curso-screenshot-testing-android.jpg",
+    "description": "Jorge Barroso de Karumi nos explicará cómo y qué aporta hacer Screenshot Testing en Android. Veremos desde cómo empezar a escribir nuestros primeros tests, hasta algunos trucos a tener en cuenta pasando por la integración continua.",
+    "category": ["mobile", "testing"],
+    "authors": "Javi y Rafa"
+  },
+  {
+    "slug": "screenshot-testing-en-ios",
+    "title": "🖼️ Screenshot testing en iOS",
+    "img": "curso-screenshot-testing-ios.jpg",
+    "description": "Sergio Gutierrez de Karumi nos explicará cómo y qué aporta hacer Screenshot Testing en iOS. Veremos desde cómo empezar a escribir nuestros primeros tests, hasta algunos trucos a tener en cuenta pasando por la integración continua.",
+    "category": ["mobile", "testing"],
+    "authors": "Javi y Rafa"
+  }
+]
