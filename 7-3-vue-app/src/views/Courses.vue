@@ -2,7 +2,7 @@
   <Hero />
   <BusinessCallout />
   <Subscribe />
-  <Courses />
+  <Collection />
   <Partners />
   <Testimonials />
   <Cta />
@@ -10,13 +10,13 @@
 
 <script>
 // @ is an alias to /src
-import Hero from "@/components/organisms/Hero.vue";
-import BusinessCallout from "@/components/organisms/BusinessCallout.vue";
-import Subscribe from "@/components/organisms/Subscribe.vue";
-import Courses from "@/components/organisms/Courses.vue";
-import Partners from "@/components/organisms/Partners.vue";
-import Testimonials from "@/components/organisms/Testimonials.vue";
-import Cta from "@/components/organisms/Cta.vue";
+import BusinessCallout from "@/components/common/BusinessCallout.vue";
+import Partners from "@/components/common/Partners.vue";
+import Testimonials from "@/components/common/Testimonials.vue";
+import Hero from "@/components/courses/Hero.vue";
+import Collection from "@/components/courses/Collection.vue";
+import Subscribe from "@/components/subscription/Subscribe.vue";
+import Cta from "@/components/subscription/Cta.vue";
 
 export default {
   name: "Home",
@@ -24,7 +24,7 @@ export default {
     Hero,
     BusinessCallout,
     Subscribe,
-    Courses,
+    Collection,
     Partners,
     Testimonials,
     Cta,

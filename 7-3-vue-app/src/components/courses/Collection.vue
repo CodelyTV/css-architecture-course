@@ -25,11 +25,11 @@
 </template>
 
 <script>
-import Container from "@/components/objects/Container.vue";
-import Button from "@/components/atoms/Button.vue";
-import Title from "@/components/atoms/Title.vue";
-import Card from "@/components/molecules/Card.vue";
-import Dropdown from "@/components/molecules/Dropdown.vue";
+import Container from "@/components/ui/objects/Container.vue";
+import Button from "@/components/ui/atoms/Button.vue";
+import Title from "@/components/ui/atoms/Title.vue";
+import Card from "@/components/ui/molecules/Card.vue";
+import Dropdown from "@/components/ui/molecules/Dropdown.vue";
 import { api } from "@/services/api";
 
 export default {

@@ -42,11 +42,11 @@
 </template>
 
 <script>
-import Container from "@/components/objects/Container.vue";
-import UiList from "@/components/objects/UiList.vue";
-import CoverBackground from "@/components/atoms/CoverBackground.vue";
-import Lead from "@/components/atoms/Lead.vue";
-import CtaBox from "@/components/molecules/CtaBox.vue";
+import Container from "@/components/ui/objects/Container.vue";
+import UiList from "@/components/ui/objects/UiList.vue";
+import CoverBackground from "@/components/ui/atoms/CoverBackground.vue";
+import Lead from "@/components/ui/atoms/Lead.vue";
+import CtaBox from "@/components/ui/molecules/CtaBox.vue";
 
 export default {
   components: {

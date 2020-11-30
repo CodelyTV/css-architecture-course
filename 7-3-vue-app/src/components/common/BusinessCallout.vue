@@ -11,8 +11,8 @@
 </template>
 
 <script>
-import Container from "@/components/objects/Container.vue";
-import Pill from "@/components/atoms/Pill.vue";
+import Container from "@/components/ui/objects/Container.vue";
+import Pill from "@/components/ui/atoms/Pill.vue";
 
 export default {
   components: {

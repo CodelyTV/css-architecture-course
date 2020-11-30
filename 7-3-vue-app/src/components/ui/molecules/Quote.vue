@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import Box from "@/components/atoms/Box.vue";
+import Box from "@/components/ui/atoms/Box.vue";
 
 export default {
   props: {

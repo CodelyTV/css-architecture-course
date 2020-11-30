@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import UiList from "@/components/objects/UiList.vue";
+import UiList from "@/components/ui/objects/UiList.vue";
 
 export default {
   components: {

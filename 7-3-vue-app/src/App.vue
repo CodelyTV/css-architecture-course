@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import Header from "@/components/organisms/Header.vue";
-import Footer from "@/components/organisms/Footer.vue";
+import Header from "@/components/common/Header.vue";
+import Footer from "@/components/common/Footer.vue";
 
 export default {
   components: {

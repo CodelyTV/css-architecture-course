@@ -11,8 +11,8 @@
 </template>
 
 <script>
-import Container from "@/components/objects/Container.vue";
-import Button from "@/components/atoms/Button.vue";
+import Container from "@/components/ui/objects/Container.vue";
+import Button from "@/components/ui/atoms/Button.vue";
 
 export default {
   components: {

@@ -15,10 +15,10 @@
 </template>
 
 <script>
-import Container from "@/components/objects/Container.vue";
-import CoverBackground from "@/components/atoms/CoverBackground.vue";
-import Title from "@/components/atoms/Title.vue";
-import Quote from "@/components/molecules/Quote.vue";
+import Container from "@/components/ui/objects/Container.vue";
+import CoverBackground from "@/components/ui/atoms/CoverBackground.vue";
+import Title from "@/components/ui/atoms/Title.vue";
+import Quote from "@/components/ui/molecules/Quote.vue";
 
 export default {
   components: {

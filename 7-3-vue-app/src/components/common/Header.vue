@@ -47,8 +47,8 @@
 </template>
 
 <script>
-import Container from "@/components/objects/Container.vue";
-import UiList from "@/components/objects/UiList.vue";
+import Container from "@/components/ui/objects/Container.vue";
+import UiList from "@/components/ui/objects/UiList.vue";
 
 export default {
   components: {

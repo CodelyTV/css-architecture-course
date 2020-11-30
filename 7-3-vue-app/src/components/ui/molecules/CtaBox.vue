@@ -14,8 +14,8 @@
 </template>
 
 <script>
-import Box from "@/components/atoms/Box.vue";
-import Button from "@/components/atoms/Button.vue";
+import Box from "@/components/ui/atoms/Box.vue";
+import Button from "@/components/ui/atoms/Button.vue";
 
 export default {
   props: {

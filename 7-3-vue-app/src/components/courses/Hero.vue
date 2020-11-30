@@ -25,12 +25,12 @@
 </template>
 
 <script>
-import Container from "@/components/objects/Container.vue";
-import Button from "@/components/atoms/Button.vue";
-import CoverBackground from "@/components/atoms/CoverBackground.vue";
-import Lead from "@/components/atoms/Lead.vue";
-import Title from "@/components/atoms/Title.vue";
-import VideoThumbnail from "@/components/molecules/VideoThumbnail.vue";
+import Container from "@/components/ui/objects/Container.vue";
+import Button from "@/components/ui/atoms/Button.vue";
+import CoverBackground from "@/components/ui/atoms/CoverBackground.vue";
+import Lead from "@/components/ui/atoms/Lead.vue";
+import Title from "@/components/ui/atoms/Title.vue";
+import VideoThumbnail from "@/components/ui/molecules/VideoThumbnail.vue";
 
 export default {
   components: {
