@@ -1,8 +1,19 @@
 <template>
-  <div class="container">
+  <component :is="tag" class="container">
     <slot />
-  </div>
+  </component>
 </template>
+
+<script>
+export default {
+  props: {
+    tag: {
+      type: String,
+      default: "div",
+    },
+  },
+};
+</script>
 
 <style lang="scss" scoped>
 @use "@/assets/styles/settings/_variables.scss";
