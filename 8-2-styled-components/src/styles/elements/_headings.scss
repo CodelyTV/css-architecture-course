@@ -1,0 +1,18 @@
+h1,
+h2,
+h3 {
+  font-weight: 300;
+  line-height: 1.13;
+}
+
+h1 {
+  font-size: $fs-title-l;
+}
+
+h2 {
+  font-size: $fs-title-m;
+}
+
+h3 {
+  font-size: $fs-title-s;
+}
