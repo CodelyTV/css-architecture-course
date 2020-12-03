@@ -1,0 +1,41 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer base {
+  h1,
+  h2,
+  h3 {
+    @apply font-light leading-tight;
+  }
+
+  h1 {
+    @apply text-5xl my-12;
+  }
+
+  h2 {
+    @apply text-4xl my-9;
+  }
+
+  h3 {
+    @apply text-2xl my-6;
+  }
+
+  a {
+    @apply underline text-green hover:text-green-dark transition-all;
+  }
+}
+
+@layer utilities {
+  .basis-0 {
+    flex-basis: 0;
+  }
+  .basis-1\/2 {
+    flex-basis: 50%;
+  }
+  .flex-grow-max {
+    flex-grow: 9999;
+  }
+}
