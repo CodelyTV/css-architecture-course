@@ -1,5 +1,5 @@
 <template>
-  <Container class="flex flex-wrap items-center justify-between | py-12">
+  <Container class="flex-justified | py-12">
     <h4 class="text-lg">Invierte en ti y mejora como profesional</h4>
     <Button
       theme="primary"

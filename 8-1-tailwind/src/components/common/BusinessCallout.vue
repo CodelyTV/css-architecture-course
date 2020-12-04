@@ -1,8 +1,6 @@
 <template>
   <section>
-    <Container
-      class="flex flex-wrap items-center justify-center gap-4 | text-gray-500"
-    >
+    <Container class="flex-centered gap-4 | text-gray-500">
       <Pill>🏭 Empresas</Pill>
       <span>
         Grandes y pequeñas empresas mejoran día a día con los

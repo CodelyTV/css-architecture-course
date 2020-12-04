@@ -28,6 +28,15 @@
   }
 }
 
+@layer components {
+  .flex-justified {
+    @apply flex flex-wrap items-center justify-between;
+  }
+  .flex-centered {
+    @apply flex flex-wrap items-center justify-center;
+  }
+}
+
 @layer utilities {
   .basis-0 {
     flex-basis: 0;

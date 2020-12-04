@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-gray-900">
-    <Container class="flex flex-wrap items-center justify-between">
+    <Container class="flex-justified">
       <ul class="flex flex-wrap gap-4">
         <li>
           <a href="https://codely.tv/pro/cursos"> Cursos </a>

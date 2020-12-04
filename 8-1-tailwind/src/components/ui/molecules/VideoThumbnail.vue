@@ -7,7 +7,7 @@
     />
     <button
       aria-label="Reproducir Vídeo"
-      class="absolute top-1/2 left-1/2 | w-28 h-28 flex items-center justify-center | bg-white rounded-full | transform -translate-x-1/2 -translate-y-1/2 | pointer hover:shadow-xl"
+      class="absolute top-1/2 left-1/2 | w-28 h-28 flex-centered | bg-white rounded-full | transform -translate-x-1/2 -translate-y-1/2 | pointer hover:shadow-xl"
     >
       <svg
         class="w-16 text-gray-800"

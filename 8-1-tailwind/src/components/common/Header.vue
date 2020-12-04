@@ -2,10 +2,7 @@
   <header
     class="sticky top-0 left-0 z-40 | w-full | bg-gray-900 shadow-lg | text-white"
   >
-    <Container
-      tag="nav"
-      class="flex flex-wrap items-center justify-between | py-4"
-    >
+    <Container tag="nav" class="flex-justified | py-4">
       <a href="https://codely.tv">
         <img
           alt="Logo CodelyTV"

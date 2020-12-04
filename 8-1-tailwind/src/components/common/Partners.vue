@@ -1,5 +1,5 @@
 <template>
-  <Container tag="section" class="flex items-center justify-between | py-16">
+  <Container tag="section" class="flex-justified | py-16">
     <Lead class="text-gray-600">Cursos facilitados por: <br /></Lead>
 
     <ul class="flex flex-wrap gap-10">

@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center justify-center">
+  <div class="flex-centered">
     <span class="mr-4">Categoría:</span>
     <div
       class="relative | w-28 h-14 p-4 | bg-white border border-gray-200 rounded"
