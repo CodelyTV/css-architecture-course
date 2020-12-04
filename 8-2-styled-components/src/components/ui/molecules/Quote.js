@@ -1,8 +1,12 @@
 import styled from "styled-components";
-import { Sidebar } from "../objects/Sidebar";
+import { includeSidebar } from "../utils/includeSidebar";
 import { Box } from "../atoms/Box";
 
 const Attribution = styled.div`
+  ${includeSidebar({
+    gap: "1.62rem",
+    sidebarWidth: "3.25rem",
+  })}
   margin-top: 1rem;
   align-items: flex-start;
 
@@ -22,15 +26,13 @@ export function Quote(props) {
   return (
     <div>
       <Box>{props.quote}</Box>
-      <Sidebar gap="1.62rem" sidebarWidth="3.25rem">
-        <Attribution>
-          <img alt={props.author.name} src={props.author.img} />
-          <div>
-            <h5>{props.author.name}</h5>
-            <span>{props.author.role}</span>
-          </div>
-        </Attribution>
-      </Sidebar>
+      <Attribution>
+        <img alt={props.author.name} src={props.author.img} />
+        <div>
+          <h5>{props.author.name}</h5>
+          <span>{props.author.role}</span>
+        </div>
+      </Attribution>
     </div>
   );
 }
